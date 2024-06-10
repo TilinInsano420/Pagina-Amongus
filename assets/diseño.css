@@ -120,16 +120,14 @@ body{
     color: black;
 }
 
-.grande{
+.grande {
     font-size: large;
 }
 
-.mediano{
+.mediano {
     font-size: medium;
-
 }
 
-.chiqui{
+.chiqui {
     font-size: smaller;
-
 }

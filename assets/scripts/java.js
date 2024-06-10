@@ -26,5 +26,20 @@ function claro(){
     
 }
 
-function texto(){}
+function texto(){
+    var textElements = document.querySelectorAll("p, h1, h2, h3, h4, h5, h6, label, a, span, button");
+    textElements.forEach(element => {
+        element.classList.toggle("grande");
+        element.classList.toggle("mediano");
+        element.classList.toggle("chiqui");
+    });
+
+    // Adicionalmente, para cambiar el tamaño del texto dentro de los párrafos, puedes seleccionar los párrafos directamente
+    var paragraphs = document.getElementsByClassName("p");
+    paragraphs.forEach(paragraph => {
+        paragraph.classList.toggle("grande");
+        paragraph.classList.toggle("mediano");
+        paragraph.classList.toggle("chiqui");
+    });
+}
 
