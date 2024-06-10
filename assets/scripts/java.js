@@ -34,9 +34,8 @@ function texto(){
         element.classList.toggle("chiqui");
     });
 
-    // Adicionalmente, para cambiar el tamaño del texto dentro de los párrafos, puedes seleccionar los párrafos directamente
-    var paragraphs = document.getElementsByClassName("p");
-    paragraphs.forEach(paragraph => {
+    var p = document.getElementsByClassName("p");
+    p.forEach(paragraph => {
         paragraph.classList.toggle("grande");
         paragraph.classList.toggle("mediano");
         paragraph.classList.toggle("chiqui");
