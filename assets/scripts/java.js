@@ -27,7 +27,7 @@ function claro(){
 }
 
 function texto(){
-    var textElements = document.querySelectorAll("p, h1, h2, h3, h4, h5, h6, label, a, span, button");
+    var textElements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, label, a, span, button");
     textElements.forEach(element => {
         element.classList.toggle("grande");
         element.classList.toggle("mediano");
